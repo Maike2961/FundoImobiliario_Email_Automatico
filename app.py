@@ -112,7 +112,7 @@ def enviar_email(conteudo, destinatario, nome_fundo, preco, dy12m, pvp, liquidez
 def inciar_automacao():
     fundo_name = "HGFF11"
     site_name = "https://investidor10.com.br/"
-    destinatario = "mayki.silva@hotmail.com"
+    destinatario = ""
 
     conteudo, nome_fundo, preco, dy12m, pvp, liquidez_diaria, variacao12m  = pegar_informacoes(site_name, fundo_name)
 
