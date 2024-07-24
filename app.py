@@ -58,7 +58,7 @@ def enviar_email(conteudo, destinatario, nome_fundo, preco, dy12m, pvp, liquidez
     mensagem = f""" 
     <html>
         <body>
-            <h2>Informacoes do fundo</h2>
+            <h2>Informacoes do fundo e comparando com outros</h2>
             <table border="1" style="width:100%; border-collapse:collapse; text-align:center">
                 <tr>
                     <th>Nome</th>
@@ -110,7 +110,7 @@ def enviar_email(conteudo, destinatario, nome_fundo, preco, dy12m, pvp, liquidez
         print('Email Enviado')
 
 def inciar_automacao():
-    fundo_name = "HGFF11"
+    fundo_name = "MXRF11"
     site_name = "https://investidor10.com.br/"
     destinatario = ""
 
